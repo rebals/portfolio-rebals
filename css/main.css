@@ -170,15 +170,15 @@ header {
 
 header h1 {
     font-family: 'Roboto Slab', serif;
-    font-size: 3em;
+    font-size: 1.8em;
     font-weight: 800;
     margin: 0;
     padding: 10px 0;
 }
 
 header nav {
-    width: 80%;
-    font-size: 2em;
+    width: 90%;
+    font-size: 1.35em;
     font-weight: 700;
     text-transform: uppercase;
     display: flex;
@@ -191,21 +191,21 @@ header nav {
 header nav ul {
     width: 100%;
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-between;  
 }
   
 footer .content-wrapper {
-    width: 28%;
+    width: 50%;
     margin: 50px 0px;  
 }
 
 footer{
-text-align: center;
-flex-direction: column;
+  text-align: center;
+  flex-direction: column;
 }
 
 footer p {
-margin: 0;
+  margin: 0;
 }
 
 footer .contact-info i {
@@ -214,20 +214,18 @@ footer .contact-info i {
 }
 
 footer .social-icons i {
-font-size: 2.25em;
-color: #a2e8dd;
-padding: 0 20px;
+  font-size: 2.25em;
+  color: #a2e8dd;
+  padding: 0 20px;
 }
 
 footer .social-icons {
-display: flex;
-justify-content: center;
-width: 40px;
-height: 40px;
-padding: 0 120px;
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0 120px;
 }
-
-
 
 /*** Hero Area ***/
 .hero-area {
@@ -237,22 +235,22 @@ padding: 0 120px;
     background: url("../img/hero.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 750px;
+    min-height: 550px;
 }
 
 .hero-area h2 {
     font-family: 'Roboto Slab', serif;
-    font-size:  5.3em;  
+    font-size:  3.3em;  
     line-height: 1.2;
     font-weight: 700;
     color: #c2f5ed;
-    text-shadow: 8px 10px #152A3E;
+    text-shadow: 6px 6px #152A3E;
     padding: 25px 0;    
 }
 
 .hero-area p {
     font-size: .65em;
-    padding-top: 450px;
+    padding-top: 340px;
     color: #152A3E;
 }
 
@@ -323,7 +321,7 @@ Homepage Page
  align-items: start;
  flex-flow: row wrap;
  line-height: 1.5;
- padding: 0 90px;
+ padding: 0 70px;
 }
 
 #skills ol li {
@@ -340,7 +338,7 @@ Homepage Page
   position: absolute;
   bottom: 8px;
   left: 16px;
-  font-size: .75em;     
+  font-size: .65em;     
 }
 
 .tools-info {
@@ -355,15 +353,16 @@ Portfolio Page
 
 .portfolio {
   display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #5BC0BE;
-  flex-flow: row wrap;
 }
 
 .portfolio .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column;
   margin: 15px;
-  padding: 60px 0 40px 0;
+  padding: 60px 35px;
   color: #152A3E;
 }
 
@@ -388,7 +387,7 @@ Portfolio Page
 }
 
 .project-skills ol{
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: start;
@@ -398,8 +397,8 @@ Portfolio Page
 }
 
 .project-skills ol li {
-  width: 40%;
-  font-size: 1.5em;
+  width: 50%;
+  font-size: 1.25em;
 }
 
 /* ==========================================================================
@@ -511,8 +510,8 @@ Portfolio Page
   }
 
   header nav {
-    width: 40%;
-    font-size: 1.25em;
+    width: 38%;
+    font-size: 1.15em;
   }
 
   footer .content-wrapper {
@@ -565,7 +564,7 @@ Portfolio Page
     display: flex;
     justify-content: space-between;
     align-content: space-between;
-    flex-flow: row wrap;
+    flex-flow: row;
   }
 
   #about h3 {
@@ -631,21 +630,25 @@ Portfolio Page
   }
 
   /*Portfolio Page*/
+  .portfolio h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;       
+    font-size: 2.5em;
+  }
 
   .portfolio .content-wrapper {
     display: flex;
     justify-content: space-between;
     align-content: space-between;
     flex-flow: row wrap;
-  }
-  .portfolio h2 {
-    width: 100%;
-    display: flex;   
-    font-size: 2.5em;
-  }
+    padding: 48px;
+  } 
 
  .portfolio article {
-    width: 45%;
+    width: 40%;
     display: flex;   
   }
 
@@ -661,10 +664,14 @@ Portfolio Page
     font-size: 1.3em;
   }
 
-
+  .portfolio ol li {
+    font-size: 1.3em;
+  }
 
   .border-divider {
-    border-bottom: none;
+    border-bottom: 0px;
+    padding: 0;
+    margin: 0;
   }
 
 }
