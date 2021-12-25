@@ -141,62 +141,62 @@ figure{
 }
 
 .content-wrapper {
- width: 90%;
- margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 /****** HEADER - FOOTER STYLES******/
 
 header,
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    background: #152A3E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background: #152A3E;
 }
 
 header .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
 }
 
 header {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 header h1 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.8em;
-    font-weight: 800;
-    margin: 0;
-    padding: 10px 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.8em;
+  font-weight: 800;
+  margin: 0;
+  padding: 10px 0;
 }
 
 header nav {
-    width: 90%;
-    font-size: 1.35em;
-    font-weight: 700;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;  
-    padding: 15px 0;
+  width: 90%;
+  font-size: 1.35em;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;  
+  padding: 15px 0;
 }
 
 header nav ul {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;  
+  width: 100%;
+  display: flex;
+  justify-content: space-between;  
 }
   
 footer .content-wrapper {
-    width: 50%;
-    margin: 50px 0px;  
+  width: 50%;
+  margin: 50px 0px;  
 }
 
 footer{
@@ -209,8 +209,8 @@ footer p {
 }
 
 footer .contact-info i {
-    font-size: 2em;
-    padding: 0 0 10px 0;
+  font-size: 2em;
+  padding: 0 0 10px 0;
 }
 
 footer .social-icons i {
@@ -229,29 +229,29 @@ footer .social-icons {
 
 /*** Hero Area ***/
 .hero-area {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    background: url("../img/hero.jpg");
-    background-size: cover;
-    background-position: center;
-    min-height: 550px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 550px;
 }
 
 .hero-area h2 {
-    font-family: 'Roboto Slab', serif;
-    font-size:  3.3em;  
-    line-height: 1.2;
-    font-weight: 700;
-    color: #c2f5ed;
-    text-shadow: 6px 6px #152A3E;
-    padding: 25px 0;    
+  font-family: 'Roboto Slab', serif;
+  font-size:  3.3em;  
+  line-height: 1.2;
+  font-weight: 700;
+  color: #c2f5ed;
+  text-shadow: 6px 6px #152A3E;
+  padding: 25px 0;    
 }
 
 .hero-area p {
-    font-size: .65em;
-    padding-top: 340px;
-    color: #152A3E;
+  font-size: .65em;
+  padding-top: 340px;
+  color: #152A3E;
 }
 
 .hero-area a {
@@ -505,6 +505,7 @@ Portfolio Page
   header {
     padding: 20px 0;
   }
+
   header h1 {
     font-size: 2em;
   }
