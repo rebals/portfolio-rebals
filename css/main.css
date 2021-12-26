@@ -86,12 +86,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-/******BASE STYLES******/
-html {
-  font-size: 16px;
-}
-
 body {
   font-family: 'lato', sans-serif;
   font-size: 1em;
@@ -113,7 +107,7 @@ a {
 
 h2 {
   font-family: 'Roboto Slab', serif;
-  font-size: 3.25em;
+  font-size: 2.25em;
   font-weight: 700;
   margin: 0;
   color: #a2e8dd;
@@ -122,12 +116,12 @@ h2 {
 h3,
 h4 {
   font-family: 'Roboto Slab', serif;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 600;
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.285;
 }
 
@@ -144,7 +138,7 @@ figure{
   width: 90%;
   margin: 0 auto;
 }
-
+  
 /****** HEADER - FOOTER STYLES******/
 
 header,
@@ -165,20 +159,20 @@ header .content-wrapper {
 }
 
 header {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 header h1 {
   font-family: 'Roboto Slab', serif;
-  font-size: 1.8em;
-  font-weight: 800;
+  font-size: 1.5em;
+  font-weight: 900;
   margin: 0;
   padding: 10px 0;
 }
 
 header nav {
   width: 90%;
-  font-size: 1.35em;
+  font-size: 1.05em;
   font-weight: 700;
   text-transform: uppercase;
   display: flex;
@@ -195,13 +189,17 @@ header nav ul {
 }
   
 footer .content-wrapper {
-  width: 50%;
-  margin: 50px 0px;  
+  margin: 0;  
 }
 
 footer{
   text-align: center;
   flex-direction: column;
+  padding: 30px 0 60px 0;
+}
+
+footer h2 {
+  padding: 40px 0;
 }
 
 footer p {
@@ -224,7 +222,7 @@ footer .social-icons {
   justify-content: center;
   width: 40px;
   height: 40px;
-  padding: 0 120px;
+  width: 100%;
 }
 
 /*** Hero Area ***/
@@ -235,27 +233,27 @@ footer .social-icons {
   background: url("../img/hero.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 550px;
+  min-height: 400px;
 }
 
 .hero-area h2 {
   font-family: 'Roboto Slab', serif;
-  font-size:  3.3em;  
+  font-size:  2.75em;  
   line-height: 1.2;
   font-weight: 700;
   color: #c2f5ed;
-  text-shadow: 6px 6px #152A3E;
+  text-shadow: 4px 4px #152A3E;
   padding: 25px 0;    
 }
 
 .hero-area p {
-  font-size: .65em;
-  padding-top: 340px;
+  font-size: .5em;
+  padding-top: 250px;
   color: #152A3E;
 }
 
 .hero-area a {
-    color: #152A3E;
+  color: #152A3E;
 }
 
 /*========================
@@ -311,7 +309,7 @@ Homepage Page
 }
 
 #skills h2 {
-  padding: 80px 0 15px 90px
+  padding: 80px 0 15px 40px;
 }
 
 #skills ol {
@@ -321,12 +319,12 @@ Homepage Page
  align-items: start;
  flex-flow: row wrap;
  line-height: 1.5;
- padding: 0 70px;
+ padding: 0 40px;
 }
 
 #skills ol li {
  width: 40%;
- font-size: 1.5em;
+ font-size: 1em;
 }
 
 .skills-image {
@@ -338,11 +336,11 @@ Homepage Page
   position: absolute;
   bottom: 8px;
   left: 16px;
-  font-size: .65em;     
+  font-size: .5em;     
 }
 
 .tools-info {
-  padding-bottom: 205px;
+  padding-bottom: 60px;
 }
 
 /*========================
@@ -352,17 +350,11 @@ Portfolio Page
 /****** PROJECTS ******/
 
 .portfolio {
-  display: flex;
   background-color: #5BC0BE;
 }
 
 .portfolio .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-flow: column;
-  margin: 15px;
-  padding: 60px 35px;
+width: 85%;
   color: #152A3E;
 }
 
@@ -370,9 +362,8 @@ Portfolio Page
   display: flex;
   justify-content: center;    
   align-content: center;
-  padding-bottom: 20px;
   color: #152A3E;
-  padding: 0 0 45px 0;
+  padding: 60px 0;
 }
 
 .portfolio p {
@@ -400,7 +391,6 @@ Portfolio Page
   width: 50%;
   font-size: 1.25em;
 }
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -546,22 +536,19 @@ Portfolio Page
   }
 
   .hero-area p {
-    font-size: 1em;
+    font-size: .85em;
     padding-top: 400px;
   }
 
   /*Homepage*/
 
-  #about h2 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row nowrap;
-    padding: 40px 80px;
+  #about h2 {   
+    padding: 40px 0;
     font-size: 2.5em;
   }
+
   #about .content-wrapper {
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-content: space-between;
@@ -586,8 +573,8 @@ Portfolio Page
   }
 
   .profile-bio {
-    width: 50%;
-    padding: 10px 30px;
+    width: 60%;
+    padding: 40px;
   }
 
   #skills .content-wrapper {
@@ -614,7 +601,7 @@ Portfolio Page
   }
 
   .skills-image {
-    width: 60%;
+    width: 50%;
     display: flex;
     padding-right: 25px;
   }
@@ -626,7 +613,7 @@ Portfolio Page
 
   .skills-info,
   .tools-info  {
-    padding: 80px 0;
+    padding: 40px 0;
     line-height: 1.2;
   }
 
@@ -645,11 +632,10 @@ Portfolio Page
     justify-content: space-between;
     align-content: space-between;
     flex-flow: row wrap;
-    padding: 48px;
   } 
 
  .portfolio article {
-    width: 40%;
+    width: 45%;
     display: flex;   
   }
 
@@ -676,9 +662,7 @@ Portfolio Page
   }
 
 }
-
-
-
+  
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
@@ -760,4 +744,3 @@ Portfolio Page
     page-break-after: avoid;
   }
 }
-
