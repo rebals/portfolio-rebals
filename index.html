@@ -32,10 +32,9 @@
 <body>
   <header>
     <div class="content-wrapper">
-        <h1>Reba Smith | Front End Developer</h1>   
-        <nav>
+        <h1><a href="index.html">Reba Smith | Front End Developer</a></h1>   
+        <nav class="navbar">
             <ul>
-                <li><a href="index.html">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="portfolio/portfolio.html">Portfolio</a></li>
@@ -148,7 +147,19 @@
   <!-- Add your site or application content here -->
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main.js">
+    const navbar = document.querySelector(".navbar");
+    navbar.addEventListener("mouseover", mOver, false);
+    navbar.addEventListener("mouseout", mOut, false);
+
+    function mOver() {
+        navbar.setAttribute("style", "background-color:blue;")
+    }
+
+    function mOut() {  
+        navbar.setAttribute("style", "background-color:green;")
+    }
+  </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
