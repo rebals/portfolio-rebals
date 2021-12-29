@@ -188,10 +188,10 @@ header nav ul {
   justify-content: space-between;  
 }
 
-.current {
+.navbar a:hover {
   color: #5BC0BE;
 }
-  
+
 footer .content-wrapper {
   margin: 0;  
 }
