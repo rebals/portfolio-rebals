@@ -189,7 +189,11 @@ header nav ul {
 }
 
 .navbar a:hover {
-  color: #5BC0BE;
+  color: #152A3E;
+  width: 200px;
+  height: 100px;
+  background: #5BC0BE;
+  border-radius: 100px / 400px;
 }
 
 footer .content-wrapper {
@@ -372,13 +376,6 @@ width: 85%;
 
 .portfolio p {
   padding: 0 60px 0 0;
-}
-
-.border-divider {
-  border-bottom: 4px dotted #152A3E;
-  width: 100%;
-  height: 1px;
-  margin: 25px 0 40px 0;    
 }
 
 .project-skills ol{
