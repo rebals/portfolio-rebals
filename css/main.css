@@ -189,11 +189,7 @@ header nav ul {
 }
 
 .navbar a:hover {
-  color: #152A3E;
-  width: 200px;
-  height: 100px;
-  background: #5BC0BE;
-  border-radius: 100px / 400px;
+  color: #5BC0BE;
 }
 
 footer .content-wrapper {
@@ -246,7 +242,7 @@ footer .social-icons {
 
 .hero-area h2 {
   font-family: 'Roboto Slab', serif;
-  font-size:  2.75em;  
+  font-size:  3em;  
   line-height: 1.2;
   font-weight: 700;
   color: #c2f5ed;
