@@ -476,6 +476,33 @@ width: 85%;
    Modify as content requires.
    ========================================================================== */
 
+@media only screen and (min-width: 49.375em){
+  /*Tablet styles*/
+  
+  header h1 {
+    font-size: 2.5em;
+  }
+
+  header nav {
+    width: 90%;
+    font-size: 1.4em;
+  }
+
+  .hero-area {
+    min-height: 650px;
+  }
+
+  .hero-area h2 {
+    font-size: 4.5em;
+    text-shadow: 6px 6px #152A3E;
+  }
+
+  .hero-area p {
+    font-size: .75em;
+    padding-top: 380px;
+  }
+  
+}
 @media only screen and (min-width: 75em) {
   /* Style adjustments for viewports that meet the condition */
 
@@ -528,7 +555,7 @@ width: 85%;
   }
 
   .hero-area {
-    min-height: 600px;
+    min-height: 650px;
   }
 
   .hero-area h2 {
