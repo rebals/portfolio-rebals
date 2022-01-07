@@ -500,9 +500,9 @@ width: 85%;
   .hero-area p {
     font-size: .75em;
     padding-top: 380px;
-  }
-  
+  }  
 }
+
 @media only screen and (min-width: 75em) {
   /* Style adjustments for viewports that meet the condition */
 
