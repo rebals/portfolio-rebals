@@ -669,10 +669,15 @@ Portfolio Page
     bottom: 1.5px;
   }
 
-  .skills-info,
   .tools-info  {
-    padding: 80px 0;
+    padding: 60px;
     line-height: 1.2;
+  }
+
+  .skills-info {
+    padding: 60px 0;
+    line-height: 1.2;
+    border-right-style: solid;
   }
 
   /*Portfolio Page*/
