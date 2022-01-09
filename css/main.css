@@ -658,6 +658,9 @@ Portfolio Page
     line-height: 2;
   }
 
+  #skills img {
+    border-right: solid;
+  }
   .skills-image {
     width: 50%;
     display: flex;
@@ -670,12 +673,12 @@ Portfolio Page
   }
 
   .tools-info  {
-    padding: 60px;
+    padding: 45px;
     line-height: 1.2;
   }
 
   .skills-info {
-    padding: 60px 0;
+    padding: 45px 0;
     line-height: 1.2;
     border-right-style: solid;
   }
