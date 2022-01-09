@@ -445,7 +445,7 @@ Portfolio Page
 }
 
 .portfolio figure {
-  padding-top: 40px;
+  padding: 80px 0 5px 0;
   background: #5BC0BE;
 }
 
@@ -454,6 +454,11 @@ Portfolio Page
 .project-description {
   padding: 0 25px;
 }
+
+.portfolio img:hover {
+  box-shadow: 0 0 2px 1px #152A3E;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -600,14 +605,11 @@ Portfolio Page
     justify-content: space-between;
     align-content: space-between;
     flex-flow: row wrap;
+    width: 65%;
   }
 
-  .social {
-    padding-top: 168px;
-  }
-  
   .contact-info {
-    padding-top: 200px;
+    padding-top: 60px;
   }
 
   footer h2 {
@@ -619,9 +621,7 @@ Portfolio Page
     font-size: 2.5em;
   }
 
-  .form {
-    width: 25%;
-  }
+ 
   .hero-area {
     min-height: 800px;
   }
