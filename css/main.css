@@ -175,7 +175,7 @@ header nav {
   font-size: 1.1em;
   font-weight: 700;
   text-transform: uppercase;
-  display: inline;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;  
