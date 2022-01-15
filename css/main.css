@@ -164,15 +164,15 @@ header {
 
 header h1 {
   font-family: 'Roboto Slab', serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 900;
   margin: 0;
   padding: 10px 0;
 }
 
 header nav {
-  width: 90%;
-  font-size: 1.1em;
+  width: 95%;
+  font-size: .875em;
   font-weight: 700;
   text-transform: uppercase;
   display: flex;
@@ -188,6 +188,9 @@ header nav ul {
   justify-content: space-between;  
 }
 
+header nav a {
+  padding: 0 10px;
+}
 .navbar a:hover {
   color: #152A3E;
   border-radius: 25px;
@@ -250,12 +253,12 @@ footer .social-icons {
   background: url("../img/hero.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 400px;
+  min-height: 250px;
 }
 
 .hero-area h2 {
   font-family: 'Roboto Slab', serif;
-  font-size:  3em;  
+  font-size:  2em;  
   line-height: 1.2;
   font-weight: 700;
   color: #a2e8dd;
@@ -265,7 +268,7 @@ footer .social-icons {
 
 .hero-area p {
   font-size: .5em;
-  padding-top: 250px;
+  padding-top: 95px;
   color: #152A3E;
 }
 
@@ -510,7 +513,7 @@ Portfolio Page
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 49.375em){
+@media only screen and (min-width: 48em){
   /*Tablet styles*/
   
   header h1 {
