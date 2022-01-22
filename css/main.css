@@ -262,8 +262,8 @@ footer .social-icons {
   font-size:  2em;  
   line-height: 1.2;
   font-weight: 700;
-  color: #a2e8dd;
-  text-shadow: 4px 4px #152A3E;
+  color: black;
+  text-shadow: 4px 4px #5BC0BE;
   padding: 25px 0;    
 }
 
@@ -532,7 +532,6 @@ Portfolio Page
 
   .hero-area h2 {
     font-size: 4.5em;
-    text-shadow: 6px 6px #152A3E;
   }
 
   .hero-area p {
@@ -595,7 +594,7 @@ Portfolio Page
 
   .hero-area h2 {
     font-size: 6.5em;
-    text-shadow: 6px 8px #152A3E;
+    text-shadow: 6px 6px #5BC0BE;
   }
 
   .hero-area p {
