@@ -268,7 +268,7 @@ footer .social-icons {
   line-height: 1.2;
   font-weight: 700;
   color: black;
-  text-shadow: 4px 4px #5BC0BE;
+  text-shadow: 2px 2px #5BC0BE;
   padding: 25px 0;    
 }
 
@@ -376,6 +376,10 @@ Homepage Page
   bottom: 8px;
   left: 16px;
   font-size: .35em;     
+}
+
+.skills-image p, a{  
+  color: #5BC0BE;  
 }
 
 .tools-info {
@@ -550,11 +554,12 @@ Portfolio Page
 
   .hero-area h2 {
     font-size: 4.5em;
+    text-shadow: 4px 4px #5BC0BE;
   }
 
   .hero-area p {
     font-size: .75em;
-    padding-top: 380px;
+    padding-top: 315px;
   }  
 }
 
@@ -612,7 +617,7 @@ Portfolio Page
 
   .hero-area h2 {
     font-size: 6.5em;
-    text-shadow: 6px 6px #5BC0BE;
+    text-shadow: 5px 5px #5BC0BE;
   }
 
   .hero-area p {
