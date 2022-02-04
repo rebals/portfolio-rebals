@@ -102,6 +102,14 @@
                             <li>Wireframing</li>
                             <li>React</li>
                         </ol>
+
+                        <!--Image container-->
+                        <div class="image-container hide">                            
+                            <figure>
+                                <img class="img" />
+                            </figure>
+                        </div>
+
                         <!--Button clicked to reveal certification-->
                         <div class="certificate-popup" hidden>
                            <button class="button">Certificate</button> 
@@ -160,12 +168,35 @@
         </main>
     </body>
 
-    <script>
-        // When the user clicks on <div>, open the popup
-        function myFunction() {
-            var popup = document.getElementById("myPopup");
-            popup.classList.toggle("show");
-        }
-    </script>
+    <body>
+
+        <!-- Add your site or application content here -->
+        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js">
+            const button = document.querySelector("button");
+            const imgDiv = document.querySelector(".image-container");
+            const img = document.querySelector(".img");
+
+            const getImage = async function () {
+            const res = await fetch ("https://drive.google.com/file/d/1t0j0p7sKuhwLTLfpDmSTEr_3l_z-Frdo/view?usp=sharing");
+            const images = await res.json();
+    // console.log (images);
+    selectRandomImage(images);
+}
+
+button.addEventListener("click", function(){
+    getImage();
+});
+        </script>
+      
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+          window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+          ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async></script>
+      </body>
 
 </html>
