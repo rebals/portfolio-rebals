@@ -102,6 +102,11 @@
                             <li>Wireframing</li>
                             <li>React</li>
                         </ol>
+                        <!--Button clicked to reveal certification-->
+                        <div class="certificate-popup" hidden>
+                           <button class="button">Certificate</button> 
+                        </div>
+                        
                     </div>
 
                     <div class="tools-info">
@@ -115,7 +120,7 @@
                             <li>CodeSandbox</li>
                             <li>Adobe XD</li>
                         </ol>
-                    </div>
+                    </div>                    
                 </div>
             </section>
 
@@ -153,19 +158,14 @@
                 </div>
             </footer>
         </main>
-
-        <!-- Add your site or application content here -->
-        <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script>
-            window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-            ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async></script>
     </body>
+
+    <script>
+        // When the user clicks on <div>, open the popup
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+    </script>
 
 </html>
