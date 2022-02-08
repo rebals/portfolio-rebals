@@ -331,10 +331,6 @@ Homepage Page
   font-weight: 700;
 }
 
-.profile-title h3, h4 {
-  padding-left: 10px;
-}
-
 .profile-bio {
   line-height: .5;
   padding: 0 5px;
@@ -711,6 +707,10 @@ Portfolio Page
   .profile-bio {
     width: 60%;
     padding: 40px;
+  }
+
+  .profile-title h3, h4 {
+    padding-left: 10px;
   }
 
   #skills .content-wrapper {
