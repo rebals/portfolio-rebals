@@ -490,22 +490,25 @@ Portfolio Page
 }
 
 .repo-gallery {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
 }
 
 .button {
   display: inline-block;
-  border-radius: 4px;
-  background-color: #f4511e;
+  border-radius: 8px;
+  background-color: #152A3E;
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 28px;
+  font-size: 1.25rem;
   padding: 20px;
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
+  margin: 9px;
 }
 
 .button span {
