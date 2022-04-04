@@ -846,6 +846,10 @@ Portfolio Page
   .portfolio ol li {
     font-size: 1.3em;
   }
+
+  .button {
+    width: 250px;
+  }
 }
   
 @media print,
