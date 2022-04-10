@@ -402,6 +402,11 @@ Homepage Page
 }
 
 /**Certification**/
+
+.certification {
+  padding: 42px 80px 50px 0;
+}
+
 /* Style the Image Used to Trigger the Modal */
 #myImg {
   border-radius: 5px;
