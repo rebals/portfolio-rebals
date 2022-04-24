@@ -404,7 +404,7 @@ Homepage Page
 /**Certification**/
 
 .certification {
-  padding: 42px 80px 50px 0;
+  padding: 0 0 60px 45px;
 }
 
 /* Style the Image Used to Trigger the Modal */
@@ -713,6 +713,10 @@ Portfolio Page
 
   .button {
     width: 30%;
+  }
+
+  .certification {
+    padding: 42px 80px 50px 0;
   }
 }
 
