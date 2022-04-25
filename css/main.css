@@ -874,6 +874,10 @@ Portfolio Page
     margin: 25px 0;
   }
 
+  .certification {
+    padding: 42px 80px 50px 0;
+  }
+
   /*Portfolio Page*/
   .portfolio h2 {
     width: 100%;
