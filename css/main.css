@@ -716,7 +716,7 @@ Portfolio Page
   }
 
   .certification {
-    padding: 42px 80px 50px 0;
+    padding: 60px 250px;
   }
 }
 
@@ -873,9 +873,12 @@ Portfolio Page
     width: 50%;
     margin: 25px 0;
   }
-
   .certification {
-    padding: 0 0 60px 30px;
+    padding: 42px 50px 50px 0;
+  }
+
+  #myImg {
+    padding-left: 0;
   }
 
   /*Portfolio Page*/
