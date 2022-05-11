@@ -597,13 +597,34 @@ Portfolio Page
   right: 0;
 }
 
-/* ====================
+/*======================
       CONTACT PAGE
 ======================*/
 
 .contact-container {
   margin: 0;
   background-color: #5BC0BE;
+}
+
+.contact-header {
+  color: #152A3E;
+  text-align: center;
+  padding: 60px 25px;
+  border: 8px double #a2e8dd;
+}
+
+.contact-header h2 {
+  color: #152A3E;
+  font-size: 2.2em;
+}
+.contact-header a i {
+  font-size: 4.5em;
+  padding: 40px 45px;
+  color: #152A3E;
+}
+
+.contact-image {
+  width: 100%;
 }
 
 .contact-image {
