@@ -1002,6 +1002,17 @@ input[type=submit]:hover {
   .button {
     width: 250px;
   }
+
+  /**Contact Page**/
+  .contact-container {
+    display: flex;
+    flex-flow: nowrap;
+  }
+
+  .contact-header {
+    
+    padding: 0;
+  }
 }
   
 @media print,
