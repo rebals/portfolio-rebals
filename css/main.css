@@ -1006,7 +1006,6 @@ input[type=submit]:hover {
   /**Contact Page**/
   .contact-container {
     display: flex;
-    flex-flow: nowrap;
   }
 
   .contact-header {
