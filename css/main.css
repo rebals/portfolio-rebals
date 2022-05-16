@@ -1009,9 +1009,14 @@ input[type=submit]:hover {
   }
 
   .contact-header {
-    
-    padding: 0;
+    padding: 0 25px;
   }
+
+  .contact-image {
+    width: 50%;
+  }
+
+  .
 }
   
 @media print,
