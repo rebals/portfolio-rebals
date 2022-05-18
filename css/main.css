@@ -1017,7 +1017,12 @@ input[type=submit]:hover {
     width: 50.25%;
   }
 
-  
+  .form-container {
+    display: flex;
+
+    width: 100%;
+    
+  }
 }
   
 @media print,
