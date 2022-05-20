@@ -1023,6 +1023,10 @@ input[type=submit]:hover {
     width: 100%;
     
   }
+
+  input[type=text], select, textarea {
+    padding: 6px 6px;
+  }
 }
   
 @media print,
