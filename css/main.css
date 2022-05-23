@@ -1014,18 +1014,11 @@ input[type=submit]:hover {
   }
 
   .contact-image {
-    width: 50.25%;
+    width: 80%;
   }
 
   .form-container {
-    display: flex;
-
-    width: 100%;
-    
-  }
-
-  input[type=text], select, textarea {
-    padding: 6px 6px;
+    width: 400%;
   }
 }
   
