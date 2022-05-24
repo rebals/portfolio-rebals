@@ -826,6 +826,10 @@ input[type=submit]:hover {
     font-size: 1.15em;
   }
 
+  footer {
+    padding: 15px;
+  }
+
   footer .content-wrapper {
     display: flex;
     justify-content: space-between;
@@ -1019,6 +1023,7 @@ input[type=submit]:hover {
 
   .form-container {
     width: 400%;
+    padding: 80px 20px 50px 25px;
   }
 }
   
