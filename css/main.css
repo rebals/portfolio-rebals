@@ -1013,7 +1013,7 @@ input[type=submit]:hover {
   }
 
   .contact-header {
-    padding: 0 25px;
+    padding: 50px 25px;
     width: 91%;
   }
 
@@ -1023,7 +1023,7 @@ input[type=submit]:hover {
 
   .form-container {
     width: 400%;
-    padding: 80px 20px 50px 25px;
+    padding: 100px 20px 50px 25px;
   }
 }
   
