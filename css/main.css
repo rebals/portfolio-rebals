@@ -1009,11 +1009,16 @@ input[type=submit]:hover {
   /**Contact Page**/
   .contact-container {
     display: flex;
+    padding: 40px 200px;
   }
 
   .contact-header {
     padding: 50px 25px;
     width: 91%;
+  }
+
+  .contact-header i {
+    
   }
 
   .contact-image {
