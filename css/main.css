@@ -1015,12 +1015,11 @@ input[type=submit]:hover {
 
   .contact-header {
     padding: 50px 25px;
-    width: 89.2%;
+    width: 89.4%;
     height: 34%;
   }
   .contact-header a i {
     font-size: 3.4em;
-    border-radius: 6%;
   }
 
   .contact-header h2 {
