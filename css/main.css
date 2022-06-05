@@ -625,7 +625,6 @@ Portfolio Page
 
 .contact-image {
   width: 100%;
-  border-radius: 8px;
 }
 
 .contact-image {
@@ -1010,12 +1009,12 @@ input[type=submit]:hover {
   /**Contact Page**/
   .contact-container {
     display: flex;
-    padding: 40px 120px;
+    padding: 60px 120px;
   }
 
   .contact-header {
     padding: 50px 25px;
-    width: 89.4%;
+    width: 90%;
     height: 34%;
   }
   .contact-header a i {
@@ -1027,11 +1026,12 @@ input[type=submit]:hover {
   }
 
   .contact-image {
-    width: 99.8%;
+    width: 99.4%;
+    padding-bottom: 50px;
   }
 
   .form-container {
-    width: 400%;
+    width: 300%;
     padding: 100px 20px 50px 25px;
   }
 }
