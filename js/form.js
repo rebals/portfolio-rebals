@@ -1,1 +1,1 @@
-var button = document.querySelector()
+var button = document.querySelector();
